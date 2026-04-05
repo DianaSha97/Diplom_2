@@ -2,7 +2,7 @@ package ru.educationservices.stellarburgers.resthandlers.httpclients;
 
 import io.restassured.response.Response;
 import ru.educationservices.stellarburgers.constants.ApiUrls;
-import ru.educationservices.stellarburgers.requestEntities.User;
+import ru.educationservices.stellarburgers.request.entities.User;
 
 public class UserHTTPClient extends BaseHTTPClient{
     public Response createUser(User user) {

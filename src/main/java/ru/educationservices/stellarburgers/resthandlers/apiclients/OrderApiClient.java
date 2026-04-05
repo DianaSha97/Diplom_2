@@ -2,7 +2,7 @@ package ru.educationservices.stellarburgers.resthandlers.apiclients;
 
 import io.qameta.allure.Step;
 import io.restassured.response.Response;
-import ru.educationservices.stellarburgers.requestEntities.Order;
+import ru.educationservices.stellarburgers.request.entities.Order;
 import ru.educationservices.stellarburgers.resthandlers.httpclients.OrderHTTPClient;
 
 import java.util.List;

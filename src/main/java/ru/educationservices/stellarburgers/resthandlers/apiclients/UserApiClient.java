@@ -4,8 +4,8 @@ import io.qameta.allure.Allure;
 import io.qameta.allure.Step;
 import io.restassured.response.Response;
 import org.hamcrest.MatcherAssert;
-import ru.educationservices.stellarburgers.requestEntities.User;
-import ru.educationservices.stellarburgers.responseEntities.UserResponse;
+import ru.educationservices.stellarburgers.request.entities.User;
+import ru.educationservices.stellarburgers.response.entities.UserResponse;
 import ru.educationservices.stellarburgers.resthandlers.httpclients.UserHTTPClient;
 
 import static org.hamcrest.Matchers.equalTo;

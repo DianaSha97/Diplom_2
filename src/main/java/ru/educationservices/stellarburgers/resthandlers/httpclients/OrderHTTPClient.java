@@ -2,7 +2,7 @@ package ru.educationservices.stellarburgers.resthandlers.httpclients;
 
 import io.restassured.response.Response;
 import ru.educationservices.stellarburgers.constants.ApiUrls;
-import ru.educationservices.stellarburgers.requestEntities.Order;
+import ru.educationservices.stellarburgers.request.entities.Order;
 
 public class OrderHTTPClient extends BaseHTTPClient {
     public Response createOrder(Order order, String token) {
