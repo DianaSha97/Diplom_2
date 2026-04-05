@@ -113,6 +113,7 @@ public class CreateOrderTests {
                 ""
         );
         checks.checkStatusCode(response, SC_BAD_REQUEST);
+        checks.checkLabelMessage(response, "Ingredient ids must be provided");
     }
 
     @Test

@@ -6,6 +6,8 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
+allure-report/
+
 # ========================
 # Gradle / Kotlin
 # ========================
